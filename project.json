@@ -1,17 +1,20 @@
 {
-  "name": "ExcelConsolidation",
-  "projectId": "17fe87fb-3286-4c04-b490-d1116ddc7c53",
-  "description": "Blank Process",
-  "main": "Main.xaml",
+  "name": "RPA Challenge",
+  "projectId": "0c1211a2-cc55-4068-8a35-a2a995a1bae3",
+  "description": "1- User Interface Automation with Modern Designe in Studio\r\n\r\nwebsite-https://www.rpachallenge.com/",
+  "main": "Practice\\App Web Recorder.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.16.1]",
-    "UiPath.System.Activities": "[22.10.4]"
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.GSuite.Activities": "[2.5.10]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.10.1]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,8 +49,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "c729be1a-845f-4879-9290-0059b5b7ba9b",
+      "filePath": "Excel Activity.xaml",
+      "uniqueId": "6448f6e2-ce15-4b32-b2c0-0ca2dacde3b0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Practice\\App Web Recorder.xaml",
+      "uniqueId": "9863ec48-f844-43c1-84ab-33b494b656b5",
       "input": [],
       "output": []
     }
